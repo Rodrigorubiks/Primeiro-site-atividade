@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Exemplo de Tabela</title>
+    <style>
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: auto; /* Centraliza a tabela na página */
+        }
+        th, td {
+            border: 1px solid #000000;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo da Instituição">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+     </header>
+    <h2 style="text-align: center;">Tabela de Cursos</h2> <!-- Centraliza o título -->
+    <table>
+        <thead>
+            <tr>
+                <th>Núcleo obrigatório de disciplinas</th>
+                <th>Descrição do curso</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Feitiçaria:</b></td>
+                <td>Aprenda os feitiços essenciais e suas aplicações práticas.</td>
+            </tr>
+            <tr>
+                <td><b>Poções:</b></td>
+                <td>Estude a arte de criar poções mágicas, desde as mais simples até as mais complexas.</td>
+            </tr>
+            <tr>
+                <td><b>Defesa Contra as Artes das Trevas:</b></td>
+                <td>Desenvolva habilidades para se proteger contra ameaças e feitiçarias das trevas.</td>
+            </tr>
+            <tr>
+                <td><b>Herbologia:</b></td>
+                <td>Explore as propriedades e usos de plantas mágicas.</td>
+            </tr>
+            <tr>
+                <td><b>Transfiguração:</b></td>
+                <td>Aprenda a transformar objetos e seres em diferentes formas.</td>
+            </tr>
+            <tr>
+                <td><b>História da Magia:</b></td>
+                <td>Mergulhe na rica história do mundo bruxo e suas figuras importantes.</td>
+            </tr>
+            <tr>
+                <td><b>Astronomia:</b></td>
+                <td>Estude os corpos celestes e sua influência mágica.</td>
+            </tr>
+            <tr>
+                <td><b>Estudos dos Trouxas:</b></td>
+                <td>Entenda a sociedade dos não-mágicos e suas interações com o mundo bruxo.</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

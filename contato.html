@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituição de Ensino</title>
+    <!-- Favicon é o ícone que aparece no navegador -->
+    <link rel="icon" href="img/favicon.ico" type="img/favicon">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #8668d8;
+            margin: 0;
+            padding: 0;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden; /* Evita barras de rolagem */
+        }
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+        .image {
+            flex: 1;
+            text-align: center; /* Centraliza a imagem dentro do contêiner */
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 280px;
+            flex: 1; /* Faz o contêiner da tabela ocupar mais espaço */
+            margin-top: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007BFF;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        h4 {
+            text-align: center; /* Centraliza o texto dentro da tag h4 */
+            color: #555;
+        }
+        /* Estilo para as imagens */
+        .image img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo da Instituição">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+     </header>
+    <div class="content">
+        <!-- Imagem à esquerda -->
+        <div class="image">
+            <img src="C:\Users\ead\Desktop\Rodrigo\Aulas html\Unisenai\img\coruja1.png" alt="Imagem Esquerda">
+        </div>
+
+        <!-- Container da tabela de contato -->
+        <div class="container">
+            <h1>Contato</h1>
+            <h4>ou mande uma coruja se tiver uma</h4>
+            <form action="#" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+        <!-- Imagem à direita -->
+        <div class="image">
+            <img src="C:\Users\ead\Desktop\Rodrigo\Aulas html\Unisenai\img\coruja2.png" alt="Imagem Direita">
+        </div>
+    </div>
+</body>
+</html>
